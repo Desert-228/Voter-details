@@ -94,7 +94,7 @@ def process_image(im, idx, ws):
 
 def process_pdf_to_excel(pdf_path):
     # Convert PDF to images
-    images = convert_from_path(pdf_path, poppler_path=r'C:\Users\anush\Downloads\Release-23.11.0-0\poppler-23.11.0\Library\bin')
+    images = convert_from_path(pdf_path, poppler_path=r'bin.zip')
 
     wb = openpyxl.Workbook()
     ws = wb.active
